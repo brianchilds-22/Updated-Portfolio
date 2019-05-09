@@ -5,7 +5,13 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #18022c;
+ 
 }
+.portfolio-bg {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/49ffae25953973.5634d5540821f.jpg);
+}
+
+
 
 .offset:before {
   display:block;
@@ -47,7 +53,7 @@ body {
 
 /* landing page start */
 .home-inner {
-  background-image: url("https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_1280.jpg");
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/49ffae25953973.5634d5540821f.jpg");
 }
 
 #home {
@@ -231,17 +237,9 @@ hr.socket {
   }
 
   /* Portfolio page */
-  .container {
-    background-image: url("https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_1280.jpg");
-
-  }
-  .card-deck {
+ .body #portfolioPage {
   
-  }
-
-  .card-body {
-  
-  }
+ }
 
  /* .clients img {
     max-width: 50%;

@@ -10,10 +10,11 @@
 	<link rel="stylesheet" href="assets\css\fixed.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 </head>
-<body>
+<body  data-spy="scroll" data-target="#navbarResponsive">
+  <div class="portfolio-bg">
     <!--Navbar-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Brian Childs</a> <!--**ADD LOGO IMAGE**-->
+        <a class="navbar-brand" href="index.html">Brian Childs</a> <!--**ADD LOGO IMAGE**-->
         <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -21,23 +22,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">About Me</a>
+                    <a class="nav-link" href="#coding">Coding Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#digital">Digital Projects</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#course">Experience</a>
+                        <a class="nav-link" href="#printing">Printing Projects</a>
                     </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#resources">Apps</a>
+                    <a class="nav-link" href="#animated">Animated Projects</a>
                 </li>
-                <li class="nav-item">
+                <!---<li class="nav-item">
                     <a class="nav-link" href="#clients">Clients</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </nav>
@@ -49,12 +50,13 @@
     <br>
 <!--Coding Projects-->
 <div class="container">
+  <div id="coding" class="offset">
 
         <h1 class="h1 text-center">Coding Projects</h1>
         <br>
             <div class="card-deck">
                     <div class="card">
-                        <img src="https://brianchilds-22.github.io/TriviaGame/" class="card-img-top" alt="Rockies Trivia Game">
+                        <img src="assets\images\screencapture-brianchilds-22-github-io-TriviaGame-2019-05-08-20_27_08.png" class="card-img-top" alt="Rockies Trivia Game">
                         <div class="card-body">
                         <h5 class="card-title">Colorado Rockies Trivia Game</h5>
                         <p class="card-text">I developed a trivia game using html,css and javascript. It includes several questions, a countdown timer and it keeps score.</p>
@@ -62,7 +64,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9d839e35347607.56f3169f16bf9.jpg" class="card-img-top" alt="Office Fanpage">
+                        <img src="assets\images\screencapture-lindsay303-github-io-Group-project-2019-05-08-20_30_18.png" class="card-img-top" alt="Office Fanpage">
                         <div class="card-body">
                         <h5 class="card-title">The Office "That's What She Said" App</h5>
                         <p class="card-text">While working with a team we developed an office fanpage/app. Using html,css and javascript the app plays the theme, 
@@ -71,7 +73,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2aaefa25612747.5634815aad7ac.png" class="card-img-top" alt="Dinosaur Hangman">
+                        <img src="assets\images\screencapture-brianchilds-22-github-io-Word-Guess-Game-2019-05-08-20_33_20.png" class="card-img-top" alt="Dinosaur Hangman">
                         <div class="card-body">
                         <h5 class="card-title">Dinosaur Word Search</h5>
                         <p class="card-text">A simple app where the user guesses letters to figure out the type of Dinosaur.</p>
@@ -102,7 +104,7 @@
                             </div>
                         </div>
                         <div class="card">
-                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3cd1f035340189.56f318b4c55c9.png" class="card-img-top" alt="MSC ad">
+                            <img src="assets\images\screencapture-brianchilds-22-github-io-GiphyAPI-Project-2019-05-08-20_36_12.png" class="card-img-top" alt="Avengers Gif">
                             <div class="card-body">
                             <h5 class="card-title">Avengers Giphy</h5>
                             <p class="card-text">Upon selection the Gifs populate the area under the search box. 
@@ -114,10 +116,11 @@
                         </div>
     
         </div>
-            
+      </div>          
     </div>
 <!--Digital Projects-->
 <div class="container">
+  <div id="digital"class="offset">
 
     <h1 class="h1 text-center">Digital Projects</h1>
     <br>
@@ -180,11 +183,11 @@
                   </div>
 
     </div>
-        
+  </div>     
 </div>
-
+<!--Print Projects-->
 <div class="container">
-
+    <div id="printing" class="offset">
         <h1 class="h1 text-center">Print Projects</h1>
         <br>
             <div class="card-deck">
@@ -216,7 +219,8 @@
                         <p class="card-text"><small class="text-muted"><a href="https://www.behance.net/gallery/46965837/Exterior-signage" target="_blank">Signs</a><br><a href="https://www.behance.net/gallery/47254665/Vehicle-wraps" target="_blank">Wraps</a></small></p>
                       </div>
                     </div>
-                  </div>
+              </div>
+                
                   <br>
         <div class="row">
                 <div class="card-deck">
@@ -247,8 +251,66 @@
                       </div>
     
         </div>
-            
-    </div>
-    
+      </div>      
+  </div>
+
+<!--Animated-->
+
+  <div class="container">
+      <div id="animated">
+          <h1 class="h1 text-center">Animated Projects</h1>
+          <br>
+              <div class="card-deck">
+                      <div class="card">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/5fe8f635150377.56eb615cf083b.gif" class="card-img-top" alt="Animated logo">
+                        <div class="card-body">
+                          <h5 class="card-title">Animated Logos</h5>
+                          <p class="card-text"> Simple gif animated logos to bring them to life.
+                               </p>
+                          <p class="card-text"><small class="text-muted"><a href="https://www.behance.net/gallery/35150377/Motion-Graphics-Photoshop-gifs" target="_blank">Logos</a></small></p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/original/5e418435150377.Y3JvcCw0OTksMzkxLDAsNTQ.jpg" class="card-img-top" alt="Elitemed DAV">
+                        <div class="card-body">
+                          <h5 class="card-title">Animated Ads</h5>
+                          <p class="card-text">As an Art Director for Xcel Edge I helped with the design and production of a bilingual magazine. it was distrbuted
+                              throughout Southern California.
+                          </p>
+                          <p class="card-text"><small class="text-muted"><a href="https://www.behance.net/gallery/25619279/Saluda-La-Vida-Printed" target="_blank">Magazine Layout</a></small></p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/efdf7246965837.5bdc8d2fb4151.jpg" class="card-img-top" alt="SLV ad">
+                        <div class="card-body">
+                          <h5 class="card-title">Large Format Printing and Exterior Signage</h5>
+                          <p class="card-text">From large illuminated exterior signs to full car wraps and interior wall wraps I have completed professional projects using large format technology.</p>
+                          <p class="card-text"><small class="text-muted"><a href="https://www.behance.net/gallery/46965837/Exterior-signage" target="_blank">Signs</a><br><a href="https://www.behance.net/gallery/47254665/Vehicle-wraps" target="_blank">Wraps</a></small></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+  </div>
+
+  <!--Footer-->
+                <footer>
+                    <div class="row justify-content-center">
+                      <div class="col-md-5 text-center">
+                        <img src="">
+                        <p>Cow pork ground round corned beef pancetta rump. Bresaola alcatra jowl, 
+                          pork loin pork chop short loin drumstick shankle chuck cow hamburger. 
+                          Sirloin filet mignon tenderloin, bacon pork loin shankle pancetta prosciutto 
+                          short loin kielbasa pork turducken. 
+                          Brisket tenderloin bresaola landjaeger leberkas prosciutto s
+                          hort ribs salami ball tip </p>
+                          <strong>Contact Info</strong>
+                          <p>(720) 284-2875<br>brianchilds22@gmail.com</p>
+                          <a href="https://www.behance.net/bchilds22" target="_blank"><i class="fab fa-behance-square"></i></a>
+                          <a href="https://www.linkedin.com/in/brian-childs-3a861990/" target="_blank"><i class="fab fab fa-linkedin"></i></a>
+                      </div>
+                      <hr class="socket">
+                      &copy Brian Childs 2019
+                    </div>
+                  </footer>
 </body>
 </html>
