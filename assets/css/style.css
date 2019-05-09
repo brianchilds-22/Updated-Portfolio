@@ -8,7 +8,9 @@ body {
  
 }
 .portfolio-bg {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/49ffae25953973.5634d5540821f.jpg);
+  background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6)),
+  url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/49ffae25953973.5634d5540821f.jpg);
+  
 }
 
 
@@ -147,10 +149,11 @@ h3.heading {
   color: #22A2F2;
 }
 
-.feature h3 {
+.feature h5 {
+  margin-top: 10px;
   font-size: 21px;
   text-transform: uppercase;
-  padding-bottom: 6px;
+  padding-bottom:20px;
 }
 
 .feature p {
@@ -164,7 +167,7 @@ h3.heading {
 
 /* Resources */
 .fixed {
-  background-image: url(https://cdn.pixabay.com/photo/2016/06/28/05/10/laptop-1483974_1280.jpg);
+  background-image: url("../images/laptop-1483974_1920.jpg");
   z-index: -1;
 }
 .dark {
@@ -266,3 +269,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+}
