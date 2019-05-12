@@ -210,6 +210,10 @@ footer {
   margin-top: 22px;
 }
 
+footer P {
+  margin-top: 25px;
+}
+
 footer a {
   color: white;
 }
@@ -251,6 +255,7 @@ hr.socket {
   .narrow h1 {
     font-size: 21px;
   }
+}
 
   @media (max-width: 500px) {
     .caption h1 {
@@ -260,10 +265,7 @@ hr.socket {
       width: 100%;
       font-size: 90%;
   }
-  /* Portfolio page */
- .body #portfolioPage {
-  
- }
+}
 
  /* .clients img {
     max-width: 50%;
@@ -290,4 +292,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-}
