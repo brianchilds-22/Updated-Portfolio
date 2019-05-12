@@ -1,4 +1,4 @@
-# Updated-Portfoli
+# Updated-Portfolio
 I created a new portfolio page using Bootstrap and CSS styling. I decided to go with a landing page with links to my portfolio and professional references. On the main landing page I created a navbar with a glowing hover effect that linked to the sections of the landing page or opened the portfolio page. In the about me div I created a parallax image with my portfolio image and my personal mission statement.
 In the features div I highlighted my experience with digital, print, animation and coding with a clickable button linking to a more in depth portfolio page. I also included a section showing the applications that I have experience with followed by a clients section and a button linked to a professional reference page. Finally at the bottom is the footer, I used font awesome icons to link to my Behance Portfolio, Linkedin Profile, Github Repository and my Resume.
 
