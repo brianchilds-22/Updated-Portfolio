@@ -255,6 +255,10 @@ hr.socket {
   @media (max-width: 500px) {
     .caption h1 {
       font-size: 24px;
+    }
+    .btn-secondary {
+      width: 100%;
+      font-size: 90%;
   }
   /* Portfolio page */
  .body #portfolioPage {
