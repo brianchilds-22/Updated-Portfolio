@@ -264,7 +264,10 @@ hr.socket {
     .btn-secondary {
       width: 100%;
       font-size: 90%;
-  }
+    }
+    p {
+      font-size: 12px;
+    }
 }
 
  /* .clients img {
