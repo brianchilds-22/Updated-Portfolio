@@ -9,7 +9,9 @@ body {
 }
 .portfolio-bg {
   background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6)),
-  url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/49ffae25953973.5634d5540821f.jpg);
+  /*background-image: linear-gradient(to top, rgb(103, 91, 2),rgba(115, 102, 45, 0.7),rgb(255, 255, 255, 0.6)),*/
+  url(../images/Pressed-Cardboard-BC.jpg);
+ 
   
 }
 
@@ -55,12 +57,17 @@ body {
 
 /* landing page start */
 .home-inner {
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/49ffae25953973.5634d5540821f.jpg");
+  background-image: url("../images/Pressed-Cardboard-BC.jpg");
 }
 
 #home {
   background-image: linear-gradient(to top, rgb(24,2,44),rgba(24,2,44,0.7),rgb(255, 255, 255, 0.6));
   
+ /* background-image: linear-gradient(to top, rgb(103, 91, 2),rgba(115, 102, 45, 0.7),rgb(255, 255, 255, 0.6));*/
+}
+#Brian {
+  position: absolute;
+  z-index: 1;
 }
 
 .caption {
@@ -172,6 +179,7 @@ h3.heading {
 }
 .dark {
   background-color:rgba(24,2,44, 0.75);
+  /*background-color: rgba(164, 145, 6, 0.75);*/
   color: white;
   padding: 111px 36px;
 }
@@ -186,6 +194,11 @@ blockquote .svg-inline--fa {
 }
 .clients-hr {
   border-top: 3px solid #18022c;
+}
+
+.clients img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 /* contact */
@@ -239,6 +252,10 @@ hr.socket {
     font-size: 21px;
   }
 
+  @media (max-width: 500px) {
+    .caption h1 {
+      font-size: 24px;
+  }
   /* Portfolio page */
  .body #portfolioPage {
   
