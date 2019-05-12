@@ -77,6 +77,10 @@ body {
   text-transform: uppercase;
 }
 
+.caption p {
+  word-spacing: 5px;
+}
+
 .caption h1 {
   font-size: 60px;
   font-weight: 700;
@@ -128,7 +132,7 @@ body {
   border-color: #22A2F2;
 }
 
-/*features*/
+/*FEATURES*/
 .jumbotron {
   margin-bottom: 0;
   padding: 32px 0 0 0px;
@@ -169,7 +173,7 @@ h3.heading {
   padding: 32px;
 }
 
-/* Resources */
+/* APPS */
 .fixed {
   background-image: url("../images/laptop-1483974_1920.jpg");
   z-index: -1;
@@ -178,13 +182,13 @@ h3.heading {
   background-color:rgba(24,2,44, 0.75);
   /*background-color: rgba(164, 145, 6, 0.75);*/
   color: white;
-  padding: 111px 36px;
+  padding: 50px 36px;
 }
 .fixed-background h3 {
   margin-bottom: 26px;
 }
 
-/* Clients */
+/* CLIENTS */
 blockquote .svg-inline--fa {
   color: #18022c;
   margin: 16px;
@@ -198,7 +202,7 @@ blockquote .svg-inline--fa {
   border-radius: 50%;
 }
 
-/* contact */
+/* CONTACT */
 
 footer {
   background-color: #18022c;
