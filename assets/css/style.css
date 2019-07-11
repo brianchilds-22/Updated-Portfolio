@@ -231,9 +231,7 @@ footer svg.svg-inline--fa:hover {
 footer h3 {
   text-transform: uppercase;
 }
-footer img {
-  place-content: center;
-}
+
 
 /* contact form*/
 .form-group {
