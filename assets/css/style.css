@@ -228,6 +228,28 @@ footer svg.svg-inline--fa:hover {
   color: #22A2F2!important;
 }
 
+footer h3 {
+  text-transform: uppercase;
+}
+footer img {
+  place-content: center;
+}
+
+/* contact form*/
+.form-group {
+  margin-bottom: 25px;
+}
+.form-control {
+  background-color: #18022c;
+  border-radius: 0;
+  border: 1px solid #22A2F2;
+  color: white!important;
+  font-size: 18px;
+}
+.form-control:focus {
+  background: #18022c;
+}
+
 hr.socket {
   width: 100%;
   border-top: 3px solid #22A2F2; 
